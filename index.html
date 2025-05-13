@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideShow</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-black">
+    <h1 class="absolute text-white font-bold left-[50%] translate-x-[-50%] text-shadow-black/55 text-shadow-md">Bem-vindos ao SlideShow</h1>
+    <div >
+        <img id="img1" class="m-auto w-[100%] h-[100vh] object-cover" src="imgs/pexels-rethaferguson-3621182.jpg" alt="Image 1">
+        <img id="img2" class="m-auto hidden w-[100%] h-[100vh] object-cover" src="imgs/pexels-rethaferguson-3623180.jpg" alt="Image 2">
+        <img id="img3" class="m-auto hidden w-[100%] h-[100vh] object-cover" src="imgs/pexels-maksgelatin-4775192.jpg" alt="Image 3">
+        <img id="img4" class="m-auto hidden w-[100%] h-[100vh] object-cover" src="imgs/pexels-rethaferguson-3623180.jpg" alt="Image 4">
+        
+    </div>
+    <div class="absolute left-[50%] bottom-2 text-white text-lg translate-x-[-50%]">
+        <a id="op1" class="font-bold px-1 hover:text-xl text-shadow-black text-shadow-md" href="#">1</a>
+        <a id="op2" class="font-extrabold px-1 hover:text-xl text-shadow-black text-shadow-md" href="#">2</a>
+        <a id="op3" class="font-extrabold px-1 hover:text-xl text-shadow-black text-shadow-md" href="#">3</a>
+        <a id="op4" class="font-extrabold px-1 hover:text-xl text-shadow-black text-shadow-md" href="#">4</a>
+    </div>
+    <footer>
+        <script src="scripts/jquery.js"></script>
+        <script src="scripts/slideShow.js"></script>
+    </footer>
+</body>
+</html>
